@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png"/>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" width="350">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="trabalhos.html">Trabalhos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1>Portfólio de Desingner</h1>
+    <div class="fundo">
+        <h2>Bem-Vindo ao meu Portfólio!</h2>
+        <p>Sou um desingner apaixonado por criar experiências visuais impactantes.</p>
+    </div>
+
+    <section class="gallery">
+        <h3>Galeria de Imagens</h3>
+        <img src="eventos1 (1).jpg" alt="Imagem 1">
+        <img src="eventos1 (2).jpg" alt="Imagem 2">
+        <img src="eventos1 (3).jpg" alt="Imagem 3">
+        <img src="eventos1 (4).jpg" alt="Imagem 4">
+
+        <form action="" method="post">
+            <h3>Faça um orçamento sem compromisso</h3>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" required><br>
+                <label for="nome">Telefone:</label><br>
+                <input type="number" name="telefone" required><br>
+                <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    
+
+    <footer>
+        <p>&copy; 2024 Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
